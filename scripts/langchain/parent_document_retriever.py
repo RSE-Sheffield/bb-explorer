@@ -1,6 +1,6 @@
 """
 Based on https://python.langchain.com/docs/how_to/parent_document_retriever/
-pip install langchain[openai] langchain-chroma langchain-community
+pip install langchain[openai] langchain-chroma langchain-community langgraph
 """
 
 # llm imports

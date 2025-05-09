@@ -1,0 +1,9 @@
+#
+# This requirements.txt file has not been tested
+#
+langchain[openai]
+langchain-chroma
+langgraph
+
+# This one may be redundant, as we are nolonger using a community prompt
+langchain-community
