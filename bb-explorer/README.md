@@ -54,5 +54,6 @@ The naming convention for the files is as follows:
             - bb-{Topic}-{Volume}-all.tex
         - articles
             - {Section}
-                - bb-{Topic}-{Volume}-{Section}-{Article Name}-pg{page_number_start}-{page_number_end}.tex
+                - bb-{Topic}-{Volume}-{Section}-{Article Name}-pg{page_number_start}-{page_number_end}_fr.tex
+                - bb-{Topic}-{Volume}-{Section}-{Article Name}-pg{page_number_start}-{page_number_end}_eng.tex
 
