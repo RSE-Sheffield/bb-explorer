@@ -132,33 +132,72 @@ This index contains summaries and references to excerpts from the *Bibliothèque
 
 ## Literature: Volume 56 (1814)
 
-### 📄 [BB Literature volume, Vol 56 (1814), pages 383–397.tex]
+### Littérature-56\articles\Mélanges\bb-Littérature-56-Mélanges-Patronage1-pg383-397_fr.tex
 - **Pages**: 383–397
-- **Summary**: Contains literary analysis or translated excerpts likely focused on English Romantic writers or essayists. Possibly includes commentary or extracts on recent British publications.
+- **Summary**: This fragment (1 of 5) from Maria Edgeworth’s Patronage depicts a tense debate between Lady Granville, who advocates using social connections and strategic matchmaking to advance her nieces in society, and the Percys, who value personal choice and sincere relationships over fashionable alliances.
 
-### 📄 [BB Literature volume, Vol 56 (1814), pages 512–540.tex]
+### Littérature-56\articles\Mélanges\bb-Littérature-56-Mélanges-Patronage2-pg512-540_fr.tex
 - **Pages**: 512–540
-- **Summary**: Likely a continuation of Volume 56's literary reviews. May feature multi-part articles or additional author profiles, possibly touching on philosophical or historical themes in English literature.
+- **Summary**: This fragment (2 of 5) from Maria Edgeworth’s Patronage depicts Mr. Percy and Mr. Falconer visiting Lord Oldborough, illustrating how political ambition has changed and corrupted him, while Falconer skillfully schemes to advance his sons’ prospects through social and family intrigues centered around a horse race.
 
 ---
 
 ## Literature: Volume 57 (1814)
 
-### 📄 [BB Literature volume, Vol 57 (1814), pages 112–139.tex]
+### Littérature-57\articles\Mélanges\bb-Littérature-57-Mélanges-Patronage3-pg112-139_fr.tex
 - **Pages**: 112–139
-- **Summary**: Features early content from Volume 57. Possibly includes essays, book reviews, or serialized translations of British literary works.
+- **Summary**: In this fragment (3 of 5) from Maria Edgeworth’s Patronage; Alfred Percy attends a Falconer family concert where social rivalries and manipulations abound, exposing the competitive, insincere dynamics of upper-class society, while detailed portraits reveal the ambitions and flaws of the Falconer circle as they prepare for theatrical and social events.
 
-### 📄 [BB Literature volume, Vol 57 (1814), pages 265–279.tex]
+### Littérature-57\articles\Mélanges\bb-Littérature-57-Mélanges-Patronage4-pg265-279_fr.tex
 - **Pages**: 265–279
-- **Summary**: A mid-volume excerpt, potentially continuing prior articles or introducing new literary commentary, with focus on prose or poetry analysis.
+- **Summary**: In this fragment (4 of 5) from Maria Edgeworth’s Patronage; Madame Falconer, feigning indifference to her daughter Georgiana’s romantic disappointment, schemes to secure her a prestigious role in an upcoming play by encouraging costume compromises and negotiating social connections, while managing family finances and rivalries behind the scenes.
 
-### 📄 [BB Literature volume, Vol 57 (1814), pages 406–416.tex]
+### Littérature-57\articles\Mélanges\bb-Littérature-57-Mélanges-Patronage5-pg406-416_fr.tex
 - **Pages**: 406–416
-- **Summary**: End-of-volume content. Likely concludes ongoing discussions or features standalone literary critiques. May include final reflections or summaries of British literary trends.
+- **Summary**: In this fragment (5 of 5) from Maria Edgeworth’s Patronage; Buckhurst, once guided by noble principles, gradually falls into vanity and hypocrisy under the influence of his family and social circle, ultimately facing public humiliation and being forced into a despised marriage to escape financial ruin.
+
+### Littérature-57\articles\Romans\bb-Littérature-57-Romans-Waverley1-pg532-560_fr.tex
+- **Pages**: 532-560
+- **Summary**: In this fragment (1 of 4) from Walter Scott’s Waverley; the story follows Edward Waverley, a young English officer who, caught between family and political loyalties, travels to the Scottish Highlands where he encounters the traditions, conflicts, and landscape of 18th-century Scotland.
+
+---
+
+## Literature: Volume 58 (1815)
+
+### Littérature-58\articles\Romans\bb-Littérature-58-Romans-Waverley2-pg099-131_fr.tex
+- **Pages**: 99-131
+- **Summary**: In this fragment (2 of 4) from Walter Scott’s Waverley; Waverley, intrigued by the fierce Highlanders and their customs, is led by a Gaelic envoy through rugged mountains to the lair of the outlaw Donald Bean, experiencing the stark contrast between Highland traditions and the encroaching modern world, and ultimately meets the charismatic clan chief Fergus Mac Ivor.
+
+### Littérature-58\articles\Romans\bb-Littérature-58-Romans-Waverley3-pg216-248_fr.tex
+- **Pages**: 216-248
+- **Summary**: In this fragment (3 of 4) from Walter Scott’s Waverley; Waverley, caught between loyalty and suspicion during the Scottish Jacobite uprising, is accused of treason, captured by Highland rebels, rescued, and ultimately pledges his allegiance to Prince Charles Edward Stuart amidst the tense and hopeful atmosphere of the rebellion’s court.
+
+### Littérature-58\articles\Romans\bb-Littérature-58-Romans-Waverley4-pg359-395_fr.tex
+- **Pages**: 359-395
+- **Summary**: In this fragment (4 of 4) from Walter Scott’s Waverley; Waverley, caught up in the Jacobite uprising, faces personal conflicts and shifting loyalties amid battles and retreats, ultimately reconciling with old friends, surviving dangers, and committing to marry Rose de Bradwardine as the rebellion collapses.
+### Littérature-58\articles\Romans\bb-Littérature-58-Romans-Mansfield_Park1-pg490-528_fr.tex
+- **Pages**: 490-528
+- **Summary**: In this fragment (1 of 4) from Jane Austen’s Mansfield Park; This section tells the story of Fanny Price, a modest young girl sent to live with her wealthy aunt Lady Bertram at Mansfield Park, where she struggles to fit into a family that often views her with condescension, while her cousins, despite their privileged education, lack generosity and a sense of responsibility.
+
+---
+
+## Literature: Volume 59 (1815)
+
+### Littérature-59\articles\Romans\bb-Littérature-59-Romans-Mansfield_Park2-pg101-138_fr.tex
+- **Pages**: 101-138
+- **Summary**: In this fragment (2 of 4) from Jane Austen’s Mansfield Park; At Mansfield Park, a group of young people decide to put on an amateur play, sparking excitement, disagreements over roles, and concerns about propriety, especially from Edmond and Fanny, who fear the project may cause trouble.
+
+### Littérature-59\articles\Romans\bb-Littérature-59-Romans-Mansfield_Park3-pg243-273_fr.tex
+- **Pages**: 243-273
+- **Summary**: In this fragment (3 of 4) from Jane Austen’s Mansfield Park; Henri returns to Mansfield, where Sir Thomas’s strict presence disrupts the family; Marie rejects her marriage to Rushworth, while Henri’s flirtations evolve into genuine love for Fanny Price, whom he ultimately decides to marry.
+
+### Littérature-59\articles\Romans\bb-Littérature-59-Romans-Mansfield_Park4-pg379-408_fr.tex
+- **Pages**: 379-408
+- **Summary**: In this fragment (4 of 4) from Jane Austen’s Mansfield Park; Flora subtly encourages Edmond’s hopes despite his doubts, while Fanny leaves Mansfield to visit her family in Portsmouth, where she reunites with her lively, bustling relatives and faces the contrast between her refined upbringing and her humble, chaotic family life.
 
 ---
 
 > 🗂️ You can ask questions about any of these documents using their titles or page ranges. For example:  
-> “Summarize the content from *Vol 56, pages 512–540*” or  
-> “What British authors are discussed in *Vol 57, pages 265–279*?”
+> “Summarize the content from *Literature Vol 56, pages 512–540*” or  
+> “What British authors are discussed in *Literature Vol 57, pages 265–279*?”
 
