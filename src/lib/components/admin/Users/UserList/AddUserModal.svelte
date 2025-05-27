@@ -214,14 +214,14 @@
 							<hr class=" border-gray-100 dark:border-gray-850 my-2.5 w-full" />
 
 							<div class="flex flex-col w-full">
-								<div class=" mb-1 text-xs text-gray-500">{$i18n.t('Email')}</div>
+								<div class=" mb-1 text-xs text-gray-500">{$i18n.t('Email or Username')}</div>
 
 								<div class="flex-1">
 									<input
 										class="w-full text-sm bg-transparent disabled:text-gray-500 dark:disabled:text-gray-500 outline-hidden"
-										type="email"
+										type="text"
 										bind:value={_user.email}
-										placeholder={$i18n.t('Enter Your Email')}
+										placeholder={$i18n.t('Enter Email or Username')}
 										required
 									/>
 								</div>
@@ -268,7 +268,7 @@
 
 								<div class=" text-xs text-gray-500">
 									ⓘ {$i18n.t(
-										'Ensure your CSV file includes 4 columns in this order: Name, Email, Password, Role.'
+										'Ensure your CSV file includes 4 columns in this order: Name, Email/Username, Password, Role.'
 									)}
 									<a
 										class="underline dark:text-gray-200"

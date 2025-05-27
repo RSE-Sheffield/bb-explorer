@@ -275,14 +275,14 @@
 										</div>
 									{:else}
 										<div class="mb-2">
-											<div class=" text-sm font-medium text-left mb-1">{$i18n.t('Email')}</div>
+											<div class=" text-sm font-medium text-left mb-1">{$i18n.t('Email or Username')}</div>
 											<input
 												bind:value={email}
-												type="email"
+												type="text"
 												class="my-0.5 w-full text-sm outline-hidden bg-transparent"
 												autocomplete="email"
 												name="email"
-												placeholder={$i18n.t('Enter Your Email')}
+												placeholder={$i18n.t('Enter Your Email or Username')}
 												required
 											/>
 										</div>

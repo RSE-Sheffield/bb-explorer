@@ -278,10 +278,17 @@ def calculate_sha256_string(string):
 
 
 def validate_email_format(email: str) -> bool:
+    # Allow any non-empty string as username or email
+    # This permits both usernames and email addresses
+    if not email or not email.strip():
+        return False
+
+    # Allow @localhost for development
     if email.endswith("@localhost"):
         return True
 
-    return bool(re.match(r"[^@]+@[^@]+\.[^@]+", email))
+    # Allow any string - could be username or email
+    return True
 
 
 def sanitize_filename(file_name):

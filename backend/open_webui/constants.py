@@ -21,7 +21,7 @@ class ERROR_MESSAGES(str, Enum):
         return super().__str__()
 
     DEFAULT = (
-        lambda err="": f'{"Something went wrong :/" if err == "" else "[ERROR: " + str(err) + "]"}'
+        lambda err="": f"{'Something went wrong :/' if err == '' else '[ERROR: ' + str(err) + ']'}"
     )
     ENV_VAR_NOT_FOUND = "Required environment variable not found. Terminating now."
     CREATE_USER_ERROR = "Oops! Something went wrong while creating your account. Please try again later. If the issue persists, contact support for assistance."
@@ -43,7 +43,7 @@ class ERROR_MESSAGES(str, Enum):
         "Your session has expired or the token is invalid. Please sign in again."
     )
     INVALID_CRED = "The email or password provided is incorrect. Please check for typos and try logging in again."
-    INVALID_EMAIL_FORMAT = "The email format you entered is invalid. Please double-check and make sure you're using a valid email address (e.g., yourname@example.com)."
+    INVALID_EMAIL_FORMAT = "The email or username format you entered is invalid. Please enter a valid email address or username."
     INVALID_PASSWORD = (
         "The password provided is incorrect. Please check for typos and try again."
     )
