@@ -2,14 +2,12 @@ import json
 import logging
 import os
 import shutil
-import base64
-import redis
-
 from datetime import datetime
 from pathlib import Path
 from typing import Generic, Optional, TypeVar
 from urllib.parse import urlparse
 
+import redis
 import requests
 from pydantic import BaseModel
 from sqlalchemy import JSON, Column, DateTime, Integer, func
@@ -18,9 +16,6 @@ from open_webui.env import (
     DATA_DIR,
     DATABASE_URL,
     ENV,
-    REDIS_URL,
-    REDIS_SENTINEL_HOSTS,
-    REDIS_SENTINEL_PORT,
     FRONTEND_BUILD_DIR,
     OFFLINE_MODE,
     OPEN_WEBUI_DIR,
@@ -281,7 +276,7 @@ API_KEY_ALLOWED_ENDPOINTS = PersistentConfig(
 
 
 JWT_EXPIRES_IN = PersistentConfig(
-    "JWT_EXPIRES_IN", "auth.jwt_expiry", os.environ.get("JWT_EXPIRES_IN", "-1")
+    "JWT_EXPIRES_IN", "auth.jwt_expiry", os.environ.get("JWT_EXPIRES_IN", "24h")
 )
 
 ####################################
