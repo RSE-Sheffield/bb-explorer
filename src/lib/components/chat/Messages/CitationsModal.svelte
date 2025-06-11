@@ -101,7 +101,7 @@
 									<a
 										class="hover:text-gray-500 dark:hover:text-gray-100 underline grow"
 										href={document?.metadata?.file_id
-											? `${WEBUI_API_BASE_URL}/files/${document?.metadata?.file_id}/content${document?.metadata?.page !== undefined ? `#page=${document.metadata.page + 1}` : ''}`
+											? `${WEBUI_API_BASE_URL}/files/${document?.metadata?.file_id}/content${document?.metadata?.page !== undefined ? `#page=${document.metadata.page}` : ''}`
 											: document.source?.url?.includes('http')
 												? document.source.url
 												: `#`}
@@ -112,7 +112,7 @@
 									{#if document?.metadata?.page}
 										<span class="text-xs text-gray-500 dark:text-gray-400">
 											({$i18n.t('page')}
-											{document.metadata.page + 1})
+											{document.metadata.page})
 										</span>
 									{/if}
 								</div>

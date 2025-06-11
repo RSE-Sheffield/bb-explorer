@@ -66,7 +66,36 @@
 				}
 
 				const existingSource = acc.find((item) => item.id === id);
-
+                //console.log(_source);
+                // Attempt to detect the subject, volume and chapter
+                // "Bibliotheque Britannique: <subject> Vol. <vol>, Chap. <chapter>, Sec. <section> (pp<start>-<end>)"
+                if (_source.name != "index.md") {
+                    const match = _source.name.match(/bb-([^-]+)-([0-9]{1,2})-([^-]+)-([^-]+)-pg([0-9]{1,3})-([0-9]{1,3})/);
+                    if (match) {
+                        const subject = match[1].replace(/_/g, " ");
+                        const volume = parseInt(match[2])
+                        const chapter = match[3].replace(/_/g, " ");
+                        const section = match[4].replace(/_/g, " ");
+                        const page_start = parseInt(match[5])
+                        const page_end = parseInt(match[6])
+                        // This acts as the name of the source shown in metadata modal, otherwise it default to filename
+                        metadata.name = `Bibliotheque Britannique: ${subject} Vol. ${volume}, Chap. ${chapter}, Sec. ${section} (pp${page_start}-${page_end})`;
+                        // Contracted version of the name, to be shown inline with the response
+                        // Contracted because if it exceeds ~60 chars the remaining chars are replaced with ellipsis within the UI
+                        _source.name = `${subject} Vol. ${volume}, Sec. ${section}`;
+                    } else {
+                        //metadata.name = "Match failed: "+_source.name
+                        console.log(`Source '${_source.name}' does not match`)
+                    }
+                }
+                // Attempt to extract a page number from the body text
+                //const match = JSON.stringify(document).match(/\\setcounter\{page\}\{([0-9]+)\}/);
+                const match = document.match(/\\setcounter\{page\}\{([0-9]+)\}/);
+                if (match) {
+                    metadata.page = parseInt(match[1]); // Setting page here, displays it next to source in modal
+                } else {
+                    console.log("Chunk does not contain page num")
+                }
 				if (existingSource) {
 					existingSource.document.push(document);
 					existingSource.metadata.push(metadata);
