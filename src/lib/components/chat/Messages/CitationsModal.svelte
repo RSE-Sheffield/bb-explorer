@@ -118,10 +118,26 @@
 										{decodeString(document?.metadata?.name ?? document.source.name)}
 									</a>
 									{#if document?.metadata?.page}
-										<span class="text-xs text-gray-500 dark:text-gray-400">
-											({$i18n.t('page')}
-											{document.metadata.page})
-										</span>
+                                        <a
+                                            class="hover:text-gray-500 dark:hover:text-gray-100 underline grow"
+                                            href={document?.metadata?.google_books ? `${document?.metadata?.google_books}` : '#'}
+                                            target="_blank"
+                                        >
+                                            <span class="text-xs text-gray-500 dark:text-gray-400">
+                                                (View {$i18n.t('page')}
+                                                {document.metadata.page})
+                                            </span>
+                                        </a>
+                                    {:else}
+                                        <a
+                                            class="hover:text-gray-500 dark:hover:text-gray-100 underline grow"
+                                            href={document?.metadata?.google_books ? `${document?.metadata?.google_books}` : '#'}
+                                            target="_blank"
+                                        >
+                                            <span class="text-xs text-gray-500 dark:text-gray-400">
+                                                (View Section)
+                                            </span>
+                                        </a>
 									{/if}
 								</div>
 							</Tooltip>

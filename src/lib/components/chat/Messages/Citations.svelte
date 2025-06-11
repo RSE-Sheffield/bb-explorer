@@ -72,30 +72,49 @@
                 if (_source.name != "index.md") {
                     const match = _source.name.match(/bb-([^-]+)-([0-9]{1,2})-([^-]+)-([^-]+)-pg([0-9]{1,3})-([0-9]{1,3})/);
                     if (match) {
-                        const subject = match[1].replace(/_/g, " ");
-                        const volume = parseInt(match[2])
-                        const chapter = match[3].replace(/_/g, " ");
-                        const section = match[4].replace(/_/g, " ");
-                        const page_start = parseInt(match[5])
-                        const page_end = parseInt(match[6])
+                        metadata.subject = match[1].replace(/_/g, " ");
+                        metadata.volume = parseInt(match[2])
+                        metadata.chapter = match[3].replace(/_/g, " ");
+                        metadata.section = match[4].replace(/_/g, " ");
+                        metadata.page_start = parseInt(match[5])
+                        metadata.page_end = parseInt(match[6])
                         // This acts as the name of the source shown in metadata modal, otherwise it default to filename
-                        metadata.name = `Bibliotheque Britannique: ${subject} Vol. ${volume}, Chap. ${chapter}, Sec. ${section} (pp${page_start}-${page_end})`;
+                        metadata.name = `Bibliotheque Britannique: ${metadata.subject} Vol. ${metadata.volume}, Chap. ${metadata.chapter}, Sec. ${metadata.section} (pp${metadata.page_start}-${metadata.page_end})`;
                         // Contracted version of the name, to be shown inline with the response
                         // Contracted because if it exceeds ~60 chars the remaining chars are replaced with ellipsis within the UI
-                        _source.name = `${subject} Vol. ${volume}, Sec. ${section}`;
+                        _source.name = `${metadata.subject} Vol. ${metadata.volume}, Sec. ${metadata.section}`;
                     } else {
                         //metadata.name = "Match failed: "+_source.name
                         console.log(`Source '${_source.name}' does not match`)
                     }
                 }
                 // Attempt to extract a page number from the body text
-                //const match = JSON.stringify(document).match(/\\setcounter\{page\}\{([0-9]+)\}/);
                 const match = document.match(/\\setcounter\{page\}\{([0-9]+)\}/);
                 if (match) {
                     metadata.page = parseInt(match[1]); // Setting page here, displays it next to source in modal
                 } else {
                     console.log("Chunk does not contain page num")
                 }
+                // Append page number to end of URL to take user directly to the page
+                const gbooks_dict = {
+                  lit_53: "https://books.google.co.uk/books?id=hYdCAAAAcAAJ&hl=en&pg=PA",
+                  lit_56: "https://books.google.co.uk/books?id=_Hw1AQAAMAAJ&hl=en&pg=PA",
+                  lit_57: "https://books.google.co.uk/books?id=GX01AQAAMAAJ&hl=en&pg=PA",
+                  lit_58: "https://books.google.co.uk/books?id=N301AQAAMAAJ&hl=en&pg=PA",
+                  lit_59: "https://books.google.co.uk/books?id=RxMPAAAAQAAJ&hl=en&pg=PA",
+                  agr_18: "https://books.google.co.uk/books?id=LIlCAAAAcAAJ&hl=en&pg=PA",
+                  agr_19: "https://books.google.co.uk/books?id=7-ZEk0HFFEAC&hl=en&pg=PA"
+                };
+                // Attach a google books URL to metadata if possible to determine it
+                const book_code = (metadata.subject.slice(0, 3) + "_" + metadata.volume).toLowerCase();
+                if (book_code in gbooks_dict) {
+                    if (metadata?.page) {
+                        metadata.google_books = gbooks_dict[book_code] + metadata.page;
+                    } else {
+                        metadata.google_books = gbooks_dict[book_code] + metadata.page_start;
+                    }
+                }
+                
 				if (existingSource) {
 					existingSource.document.push(document);
 					existingSource.metadata.push(metadata);
