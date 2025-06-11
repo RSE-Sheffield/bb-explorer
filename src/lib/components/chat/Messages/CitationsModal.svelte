@@ -185,7 +185,7 @@
 					</div>
 					<div class="flex flex-col w-full">
 						<div class=" text-sm font-medium dark:text-gray-300 mt-2">
-							{$i18n.t('Content')}
+							{$i18n.t('Source Text')}
 						</div>
 						{#if document.metadata?.html}
 							<iframe
