@@ -87,6 +87,8 @@
                         //metadata.name = "Match failed: "+_source.name
                         console.log(`Source '${_source.name}' does not match`)
                     }
+                } else {
+                    metadata.name = `Contents`;
                 }
                 // Attempt to extract a page number from the body text
                 const match = document.match(/\\setcounter\{page\}\{([0-9]+)\}/);
