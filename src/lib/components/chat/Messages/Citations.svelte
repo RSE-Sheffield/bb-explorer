@@ -95,23 +95,25 @@
                 } else {
                     console.log("Chunk does not contain page num")
                 }
-                // Append page number to end of URL to take user directly to the page
-                const gbooks_dict = {
-                  lit_53: "https://books.google.co.uk/books?id=hYdCAAAAcAAJ&hl=en&pg=PA",
-                  lit_56: "https://books.google.co.uk/books?id=_Hw1AQAAMAAJ&hl=en&pg=PA",
-                  lit_57: "https://books.google.co.uk/books?id=GX01AQAAMAAJ&hl=en&pg=PA",
-                  lit_58: "https://books.google.co.uk/books?id=N301AQAAMAAJ&hl=en&pg=PA",
-                  lit_59: "https://books.google.co.uk/books?id=RxMPAAAAQAAJ&hl=en&pg=PA",
-                  agr_18: "https://books.google.co.uk/books?id=LIlCAAAAcAAJ&hl=en&pg=PA",
-                  agr_19: "https://books.google.co.uk/books?id=7-ZEk0HFFEAC&hl=en&pg=PA"
-                };
-                // Attach a google books URL to metadata if possible to determine it
-                const book_code = (metadata.subject.slice(0, 3) + "_" + metadata.volume).toLowerCase();
-                if (book_code in gbooks_dict) {
-                    if (metadata?.page) {
-                        metadata.google_books = gbooks_dict[book_code] + metadata.page;
-                    } else {
-                        metadata.google_books = gbooks_dict[book_code] + metadata.page_start;
+                if (_source.name != "index.md") {
+                    // Append page number to end of URL to take user directly to the page
+                    const gbooks_dict = {
+                      lit_53: "https://books.google.co.uk/books?id=hYdCAAAAcAAJ&hl=en&pg=PA",
+                      lit_56: "https://books.google.co.uk/books?id=_Hw1AQAAMAAJ&hl=en&pg=PA",
+                      lit_57: "https://books.google.co.uk/books?id=GX01AQAAMAAJ&hl=en&pg=PA",
+                      lit_58: "https://books.google.co.uk/books?id=N301AQAAMAAJ&hl=en&pg=PA",
+                      lit_59: "https://books.google.co.uk/books?id=RxMPAAAAQAAJ&hl=en&pg=PA",
+                      agr_18: "https://books.google.co.uk/books?id=LIlCAAAAcAAJ&hl=en&pg=PA",
+                      agr_19: "https://books.google.co.uk/books?id=7-ZEk0HFFEAC&hl=en&pg=PA"
+                    };
+                    // Attach a google books URL to metadata if possible to determine it
+                    const book_code = (metadata.subject.slice(0, 3) + "_" + metadata.volume).toLowerCase();
+                    if (book_code in gbooks_dict) {
+                        if (metadata?.page) {
+                            metadata.google_books = gbooks_dict[book_code] + metadata.page;
+                        } else {
+                            metadata.google_books = gbooks_dict[book_code] + metadata.page_start;
+                        }
                     }
                 }
                 

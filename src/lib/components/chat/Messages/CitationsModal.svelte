@@ -128,7 +128,7 @@
                                                 {document.metadata.page})
                                             </span>
                                         </a>
-                                    {:else}
+                                    {:else if document?.metadata?.google_books}
                                         <a
                                             class="hover:text-gray-500 dark:hover:text-gray-100 underline grow"
                                             href={document?.metadata?.google_books ? `${document?.metadata?.google_books}` : '#'}
