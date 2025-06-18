@@ -100,13 +100,21 @@
                 if (_source.name != "index.md") {
                     // Append page number to end of URL to take user directly to the page
                     const gbooks_dict = {
+                      lit_52: "https://books.google.co.uk/books?id=c4dCAAAAcAAJ&hl=en&pg=PA",
                       lit_53: "https://books.google.co.uk/books?id=hYdCAAAAcAAJ&hl=en&pg=PA",
                       lit_56: "https://books.google.co.uk/books?id=_Hw1AQAAMAAJ&hl=en&pg=PA",
                       lit_57: "https://books.google.co.uk/books?id=GX01AQAAMAAJ&hl=en&pg=PA",
                       lit_58: "https://books.google.co.uk/books?id=N301AQAAMAAJ&hl=en&pg=PA",
                       lit_59: "https://books.google.co.uk/books?id=RxMPAAAAQAAJ&hl=en&pg=PA",
                       agr_18: "https://books.google.co.uk/books?id=LIlCAAAAcAAJ&hl=en&pg=PA",
-                      agr_19: "https://books.google.co.uk/books?id=7-ZEk0HFFEAC&hl=en&pg=PA"
+                      agr_19: "https://books.google.co.uk/books?id=7-ZEk0HFFEAC&hl=en&pg=PA",
+                      sci_9: "https://books.google.co.uk/books?id=JR4FAAAAQAAJ&hl=en&pg=PA",
+                      sci_10: "https://books.google.co.uk/books?id=wjIh9ke8qHIC&hl=en&pg=PA",
+                      sci_11: "https://books.google.co.uk/books?id=ZjDjGvkJWGcC&hl=en&pg=PA",
+                      sci_12: "https://books.google.co.uk/books?id=ce2PU32urIkC&hl=en&pg=PA",
+                      sci_13: "https://books.google.co.uk/books?id=Xd9L4Ej52RcC&hl=en&pg=PA",
+                      sci_14: "https://books.google.co.uk/books?id=UfZxvpg6-Y4C&hl=en&pg=PA",
+                      sci_15: "https://books.google.co.uk/books?id=79KezsEfFvQC&hl=en&pg=PA"
                     };
                     // Attach a google books URL to metadata if possible to determine it
                     const book_code = (metadata.subject.slice(0, 3) + "_" + metadata.volume).toLowerCase();
