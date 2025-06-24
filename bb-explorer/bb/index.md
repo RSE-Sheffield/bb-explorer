@@ -269,6 +269,19 @@ This index contains summaries and references to excerpts from the *Bibliothèque
 
 ---
 
+## Literature: Volume 53 (1813)
+
+### Littérature-53\articles\Romans\bb-Littérature-53-Romans-Orgueil_Et_Préjugé1-pg373-412_fr
+- **Pages**: 373-412
+- **Summary**: This first excerpt from Jane Austen's Pride and prejudice revolves around the Bennet sister Elizabeth, who struggles to find an appropriate husband. Mrs Bennet is determined that one of her daughters should marry Mr Bingley, the new tenant of the impressive Netherfield estate in the nearby village. Ultimately, elder sister Jane Bennet catches Mr Bingley's attention. Meanwhile, Elizabeth is left frustrated after refusing a persistent proposal from her cousin Mr. Collins.
+
+### Littérature-53\articles\Romans\bb-Littérature-53-Romans-Orgueil_Et_Préjugé2-pg522-554_fr
+- **Pages**: 522-554
+- **Summary**: In this second excerpt from Jane Austen's Pride and prejudice Elisabeth visits her sister Charlotte Lucas, who has married Mr Collins despite the absence of affection, believing that love is not essential for a stable marriage. Elisabeth is both embarrassed by Mr Collins’s behaviour and impressed by Charlotte’s composure. During her stay, they are introduced to their neighbour, Lady Catherine de Bourgh, a wealthy and domineering noblewoman. At Rosings Park, Lady Catherine scrutinises Elisabeth’s family and education, while Elisabeth subtly resists her authority with wit. It is revealed that Lady Catherine is the aunt of Mr Darcy and Colonel Fitzwilliam. Later, Mr Darcy unexpectedly declares his love for Elisabeth and proposes, but she rejects him, criticising his pride, condescension, and treatment of her family. The encounter leaves Elisabeth emotionally shaken.
+
+
+---
+
 ## Literature: Volume 56 (1814)
 
 ### Littérature-56\articles\Mélanges\bb-Littérature-56-Mélanges-Patronage1-pg383-397_fr.tex
