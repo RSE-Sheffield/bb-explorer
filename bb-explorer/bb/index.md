@@ -338,6 +338,7 @@ This index contains summaries and references to excerpts from the *Bibliothèque
 ### Littérature-58\articles\Romans\bb-Littérature-58-Romans-Waverley4-pg359-395_fr.tex
 - **Pages**: 359-395
 - **Summary**: In this fragment (4 of 4) from Walter Scott’s Waverley; Waverley, caught up in the Jacobite uprising, faces personal conflicts and shifting loyalties amid battles and retreats, ultimately reconciling with old friends, surviving dangers, and committing to marry Rose de Bradwardine as the rebellion collapses.
+
 ### Littérature-58\articles\Romans\bb-Littérature-58-Romans-Mansfield_Park1-pg490-528_fr.tex
 - **Pages**: 490-528
 - **Summary**: In this fragment (1 of 4) from Jane Austen’s Mansfield Park; This section tells the story of Fanny Price, a modest young girl sent to live with her wealthy aunt Lady Bertram at Mansfield Park, where she struggles to fit into a family that often views her with condescension, while her cousins, despite their privileged education, lack generosity and a sense of responsibility.
@@ -360,7 +361,8 @@ This index contains summaries and references to excerpts from the *Bibliothèque
 
 ---
 
-## Science and Arts: Volume 9 (1798)
+## Science and Arts: Volume 9 (1796)
+
 ### Sciences_Et_Arts-9\articles\Annonce's\bb-Sciences_Et_Arts-9-Annonce's-Petite_Vérole_Des_Vaches0-pg195-196_fr.tex
 - **Title**: AN INQUIRY INTO THE CAUSES AND EFFECTS OF THE VARIOLE VACCINE, &c. By EDWARD JENNER, M. D. F. R. S., &c. London 1798. Recherches fur les causes & les effets de la Petite-vérole des vaches, par Edouard JENNER, Dr. Méd. Membre de la Société Royale, &c. Londres 1798.
 - **Pages**: 195-196
@@ -475,6 +477,25 @@ This index contains summaries and references to excerpts from the *Bibliothèque
 - **Title**: CONSTITUTION d'un homme destiné à vivre long-temps ; par le célèbre Médecin Allemand HUFELAND. (Univ. Mag. avril 1798.)
 - **Pages**: 295-296
 - **Summary**: Hufeland describes the constitution and temperament of a person likely to live a long life as having balanced physical traits, moderate appetites, a calm and optimistic disposition, and a preference for simple pleasures and thoughtful pursuits over excess or ambition.
+
+---
+
+## Science and Arts: Volume 11 (1796)
+
+### Sciences_Et_Arts-11\articles\Medecine\bb-Sciences_Et_Arts-11-Rech._Sur_La_Pet._Vérole_Des_Vaches-pg242-263_fr.tex
+- **Title**: AN INQUIRY CONCERNING THE HISTORY, &c. Recherches sur l'histoire de la petite-vérole des vaches; dirigées dans le but de la substituer à la petite-vérole ordinaire & d'anéantir celle-ci: par G. PEARSON, médecin de l'hôpital de St. Georges, in-8°. p. 116. 2 shell. 6 d. Johnson 1798.
+- **Pages**: 242-263
+- **Summary**: Dr. Pearson’s 1798 work rigorously investigates and experimentally confirms Jenner’s claim that cowpox infection provides immunity against smallpox, presenting multiple inoculation cases where prior cowpox exposure prevented smallpox from developing.
+
+### Sciences_Et_Arts-11\articles\Medecine\bb-Sciences_Et_Arts-11-De_L'oper._Césarien._Et_De_La_Vaccine-pg311-337_fr.tex
+- **Title**: REFLEXIONS ON THE PROPRIETY OF PERFORMING THE CÆSAREAN OPERATION, &c. Réflexions sur l'Opération Césarienne, avec quelques observations sur le Cancer & quelques expériences sur la prétendue origine de la Vaccine ou petite-vérole des vaches; par W. SIMMONS, Membre du corps des Chirurgiens de Londres, & premier Chirurgien de l'Hôpital de Manchester. in-8°. pag. 97. 1798.
+- **Pages**: 311-337
+- **Summary**: A wide-ranging English treatise by W. Simmons critiques the Cesarean operation as dangerous and unjustifiable, while also exploring the potential of cowpox (vaccine) to prevent smallpox and possibly other diseases, offering counterarguments to Jenner’s claims and including notes on arsenic's use in treating cancerous ulcers.
+
+### Sciences_Et_Arts-11\articles\Correspondance\bb-Sciences_Et_Arts-11-Lettre_Sur_La_Vaccine-pg337-346_fr.tex
+- **Title**: LETTRE AUX RÉDACTEURS DE LA BIBLIOTHÈQUE BRITANNIQUE.
+- **Pages**: 337-346
+- **Summary**: Dr. J. de Carro reports the first successful cases of vaccination in Vienna in 1799 using material sent from England, confirming the effectiveness, safety, and ease of adopting Jenner’s method even in regions without naturally infected cows.
 
 ---
 
