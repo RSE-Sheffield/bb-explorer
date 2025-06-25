@@ -102,6 +102,8 @@
                     const gbooks_dict = {
                       lit_52: "https://books.google.co.uk/books?id=c4dCAAAAcAAJ&hl=en&pg=PA",
                       lit_53: "https://books.google.co.uk/books?id=hYdCAAAAcAAJ&hl=en&pg=PA",
+                      lit_54: "https://books.google.co.uk/books?id=KsoyNbhgatkC&hl=en&pg=PA",
+                      lit_55: "https://books.google.co.uk/books?id=RhIbAAAAYAAJ&hl=en&pg=PA",
                       lit_56: "https://books.google.co.uk/books?id=_Hw1AQAAMAAJ&hl=en&pg=PA",
                       lit_57: "https://books.google.co.uk/books?id=GX01AQAAMAAJ&hl=en&pg=PA",
                       lit_58: "https://books.google.co.uk/books?id=N301AQAAMAAJ&hl=en&pg=PA",
