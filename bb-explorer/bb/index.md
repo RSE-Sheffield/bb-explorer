@@ -271,14 +271,25 @@ This index contains summaries and references to excerpts from the *Bibliothèque
 
 ## Literature: Volume 53 (1813)
 
-### Littérature-53\articles\Romans\bb-Littérature-53-Romans-Orgueil_Et_Préjugé1-pg373-412_fr
+### Littérature-53\articles\Romans\bb-Littérature-53-Romans-Orgueil_Et_Préjugé1-pg373-412_fr.tex
 - **Pages**: 373-412
-- **Summary**: This first excerpt from Jane Austen's Pride and prejudice revolves around the Bennet sister Elizabeth, who struggles to find an appropriate husband. Mrs Bennet is determined that one of her daughters should marry Mr Bingley, the new tenant of the impressive Netherfield estate in the nearby village. Ultimately, elder sister Jane Bennet catches Mr Bingley's attention. Meanwhile, Elizabeth is left frustrated after refusing a persistent proposal from her cousin Mr. Collins.
+- **Summary**: This excerpt (1 of 4) from Jane Austen's Pride and prejudice revolves around the Bennet sister Elizabeth, who struggles to find an appropriate husband. Mrs Bennet is determined that one of her daughters should marry Mr Bingley, the new tenant of the impressive Netherfield estate in the nearby village. Ultimately, elder sister Jane Bennet catches Mr Bingley's attention. Meanwhile, Elizabeth is left frustrated after refusing a persistent proposal from her cousin Mr. Collins.
 
-### Littérature-53\articles\Romans\bb-Littérature-53-Romans-Orgueil_Et_Préjugé2-pg522-554_fr
+### Littérature-53\articles\Romans\bb-Littérature-53-Romans-Orgueil_Et_Préjugé2-pg522-554_fr.tex
 - **Pages**: 522-554
-- **Summary**: In this second excerpt from Jane Austen's Pride and prejudice Elisabeth visits her sister Charlotte Lucas, who has married Mr Collins despite the absence of affection, believing that love is not essential for a stable marriage. Elisabeth is both embarrassed by Mr Collins’s behaviour and impressed by Charlotte’s composure. During her stay, they are introduced to their neighbour, Lady Catherine de Bourgh, a wealthy and domineering noblewoman. At Rosings Park, Lady Catherine scrutinises Elisabeth’s family and education, while Elisabeth subtly resists her authority with wit. It is revealed that Lady Catherine is the aunt of Mr Darcy and Colonel Fitzwilliam. Later, Mr Darcy unexpectedly declares his love for Elisabeth and proposes, but she rejects him, criticising his pride, condescension, and treatment of her family. The encounter leaves Elisabeth emotionally shaken.
+- **Summary**: In this excerpt (2 of 4) from Jane Austen's Pride and prejudice Elisabeth visits her sister Charlotte Lucas, who has married Mr Collins despite the absence of affection, believing that love is not essential for a stable marriage. Elisabeth is both embarrassed by Mr Collins’s behaviour and impressed by Charlotte’s composure. During her stay, they are introduced to their neighbour, Lady Catherine de Bourgh, a wealthy and domineering noblewoman. At Rosings Park, Lady Catherine scrutinises Elisabeth’s family and education, while Elisabeth subtly resists her authority with wit. It is revealed that Lady Catherine is the aunt of Mr Darcy and Colonel Fitzwilliam. Later, Mr Darcy unexpectedly declares his love for Elisabeth and proposes, but she rejects him, criticising his pride, condescension, and treatment of her family. The encounter leaves Elisabeth emotionally shaken.
 
+---
+
+## Literature: Volume 54 (1813)
+
+### Littérature-54\articles\Romans\bb-Littérature-54-Romans-Orgueil_Et_Préjugé3-pg090-127_fr.tex
+- **Pages**: 90-127
+- **Summary**: In this excerpt (3 of 4) from Jane Austen's Pride and prejudice Lady Catherine confronts Elizabeth to prevent her marriage to Darcy, but Elizabeth firmly defends her independence. Soon after, Darcy visits again, and Elizabeth gratefully acknowledges his help with Lydia's marriage, deepening their mutual affection.
+
+### Littérature-54\articles\Romans\bb-Littérature-54-Romans-Orgueil_Et_Préjugé4-pg249-269_fr.tex
+- **Pages**: 249-269
+- **Summary**: In this excerpt (4 of 4) from Jane Austen's Pride and prejudice Elisabeth receives a letter from Mr. Darcy explaining and justifying his actions toward Mr. Bingley and Mr. Wickham, leading her to reevaluate her prejudices against him, and later, while visiting Pemberley with her relatives, she is deeply impressed by his home and character.
 
 ---
 
