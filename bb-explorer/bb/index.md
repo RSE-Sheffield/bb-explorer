@@ -530,20 +530,44 @@ This index contains summaries and references to excerpts from the *Bibliothèque
 - **Pages**: 187-194
 - **Summary**: Dr. de Carro shares a 1799 letter from Dr. Jenner expressing delight at vaccine progress in Vienna, affirming the efficacy of cowpox inoculation and its potential to replace smallpox. Jenner details vaccine preservation methods, discusses cross-species transmission challenges, and supports continental efforts to validate and propagate vaccination.
 
-### Sciences_Et_Arts-12\articles\Variétés\bb-Sciences_Et_Arts-13-Notice_Sur_La_Vaccine1-pg112-116_fr.tex
+### Sciences_Et_Arts-13\articles\Variétés\bb-Sciences_Et_Arts-13-Notice_Sur_La_Vaccine1-pg112-116_fr.tex
 - **Title**: NOTE sur l'Inoculation de la VACCINE; par le Prof. ODIER.
 - **Pages**: 112-116
 - **Summary**: Professor Odier describes several vaccine trials using filaments from London and Vienna. Infections developed in varying degrees, some producing typical pustules and others milder symptoms without systemic signs. Success seemed influenced by application technique. Full protective efficacy against smallpox remains uncertain, but English precedent suggests such mild infections may still confer immunity.
 
-### Sciences_Et_Arts-12\articles\Variétés\bb-Sciences_Et_Arts-13-Notice_Sur_La_Vaccine2-pg315-316_fr.tex
+### Sciences_Et_Arts-13\articles\Variétés\bb-Sciences_Et_Arts-13-Notice_Sur_La_Vaccine2-pg315-316_fr.tex
 - **Title**: NOTE du Prof. Odier sur la Vaccine
 - **Pages**: 315-316
 - **Summary**: Professor Odier reports continued success in Geneva’s vaccine inoculations through ten generations from the original source. The disease remains mild but unusually rapid in progression. Clear infection signs appear within hours, and effective virus is present even in minimal crust residue. Smallpox trials are still pending.
 
-### Sciences_Et_Arts-12\articles\Variétés\bb-Sciences_Et_Arts-13-Notice_Sur_La_Vaccine3-pg417-418_fr.tex
+### Sciences_Et_Arts-13\articles\Variétés\bb-Sciences_Et_Arts-13-Notice_Sur_La_Vaccine3-pg417-418_fr.tex
 - **Title**: AVIS du Profr. ODIER sur la VACCINE.
 - **Pages**: 417-418
 - **Summary**: Professor Odier reports that the cowpox virus obtained from a person previously infected with smallpox only partially protected against smallpox, producing a weaker, altered vaccine strain; his observations support Dr. Pearson’s view that vaccine virus from such sources may lose its full protective power and should not be used for inoculation.
+
+---
+
+## Science and Arts: Volume 14 (??)
+
+### Sciences_Et_Arts-14\articles\Melanges\bb-Sciences_Et_Arts-14-Notice_Sur_La_Vaccine1-pg098-100_fr.tex
+- **Title**: AVIS DU PROF. ODIER SUR LA VACCINE.
+- **Pages**: 98-100
+- **Summary**: Professor Odier reports that vaccine material from a patient who previously had smallpox failed to protect 40 children from contracting the disease, despite producing typical cowpox symptoms. The findings suggest prior smallpox infection in a vaccine source can compromise its protective effect, highlighting the need for verified, uncontaminated vaccine material.
+
+### Sciences_Et_Arts-14\articles\Melanges\bb-Sciences_Et_Arts-14-Avis_Sur_La_Vaccine-pg199-200_fr.tex
+- **Title**: AVIS SUR LA VACCINE.
+- **Pages**: 199-200
+- **Summary**: A report confirms successful cowpox inoculations in Geneva using material from Drs. Jenner and Pearson, even after long transit. One child, already incubating smallpox, died, but others showed typical vaccine reactions. The method gains widespread acceptance, with over 6,000 inoculated in England and minimal adverse effects, marking a medical milestone.
+
+### Sciences_Et_Arts-14\articles\Melanges\bb-Sciences_Et_Arts-14-Notice_Sur_La_Vaccine2-pg394-398_fr.tex
+- **Title**: NOTICE sur l'inoculation de la VACCINE; par le Prof. ODIER.
+- **Pages**: 394-398
+- **Summary**: Professor Odier reports widespread adoption of cowpox inoculation in Geneva during a deadly smallpox epidemic. Among 250 vaccinated individuals, side effects were rare and mild. Coinfections with smallpox revealed that prior vaccination reduced severity. Odier concludes from experience that cowpox inoculation effectively protects against smallpox, even amid high community transmission.
+
+### Sciences_Et_Arts-14\articles\Médecine\bb-Sciences_Et_Arts-14-Obs._De_Pearson_Sur_La_Vaccine-pg254-292_fr.tex
+- **Title**: AVIS du Profr. ODIER sur la VACCINE.
+- **Pages**: 254-292
+- **Summary**: Dr. Pearson examines vaccine-induced eruptions resembling smallpox, concluding cowpox can occasionally cause smallpox-like symptoms, though typically milder and less dangerous. Despite rare complications, he argues vaccine inoculation remains safer and more effective than variolation. His observations support broader adoption of cowpox vaccination to reduce smallpox contagion and mortality in Europe.
 
 ---
 
