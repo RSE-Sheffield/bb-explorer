@@ -497,7 +497,6 @@ This index contains summaries and references to excerpts from the *Bibliothèque
 - **Pages**: 337-346
 - **Summary**: Dr. J. de Carro reports the first successful cases of vaccination in Vienna in 1799 using material sent from England, confirming the effectiveness, safety, and ease of adopting Jenner’s method even in regions without naturally infected cows.
 
-
 ---
 
 ## Science and Arts: Volume 12 (??)
@@ -521,6 +520,30 @@ This index contains summaries and references to excerpts from the *Bibliothèque
 - **Title**: AUX AUTEURS DE LA BIBLIOTHÈQUE BRITANNIQUE.
 - **Pages**: 306-312
 - **Summary**: Dr. de Carro reports on failed early vaccinations, stresses avoiding dilution, and shares a compelling case of successful inoculation in a man who previously had smallpox—supporting Jenner’s claims. He describes symptoms, materials used, and encourages continued experimentation. Fresh vaccine matter is enclosed for further trials.
+
+---
+
+## Science and Arts: Volume 13 (??)
+
+### Sciences_Et_Arts-13\articles\Correspondance\bb-Sciences_Et_Arts-13-Lettres_Sur_La_Vaccine-pg187-194_fr.tex
+- **Title**: LETTRE DU Dr. DE CARRO AUX RÉDACTEURS DE LA BIBLIOTHÈQUE BRITANNIQUE.
+- **Pages**: 187-194
+- **Summary**: Dr. de Carro shares a 1799 letter from Dr. Jenner expressing delight at vaccine progress in Vienna, affirming the efficacy of cowpox inoculation and its potential to replace smallpox. Jenner details vaccine preservation methods, discusses cross-species transmission challenges, and supports continental efforts to validate and propagate vaccination.
+
+### Sciences_Et_Arts-12\articles\Variétés\bb-Sciences_Et_Arts-13-Notice_Sur_La_Vaccine1-pg112-116_fr.tex
+- **Title**: NOTE sur l'Inoculation de la VACCINE; par le Prof. ODIER.
+- **Pages**: 112-116
+- **Summary**: Professor Odier describes several vaccine trials using filaments from London and Vienna. Infections developed in varying degrees, some producing typical pustules and others milder symptoms without systemic signs. Success seemed influenced by application technique. Full protective efficacy against smallpox remains uncertain, but English precedent suggests such mild infections may still confer immunity.
+
+### Sciences_Et_Arts-12\articles\Variétés\bb-Sciences_Et_Arts-13-Notice_Sur_La_Vaccine2-pg315-316_fr.tex
+- **Title**: NOTE du Prof. Odier sur la Vaccine
+- **Pages**: 315-316
+- **Summary**: Professor Odier reports continued success in Geneva’s vaccine inoculations through ten generations from the original source. The disease remains mild but unusually rapid in progression. Clear infection signs appear within hours, and effective virus is present even in minimal crust residue. Smallpox trials are still pending.
+
+### Sciences_Et_Arts-12\articles\Variétés\bb-Sciences_Et_Arts-13-Notice_Sur_La_Vaccine3-pg417-418_fr.tex
+- **Title**: AVIS du Profr. ODIER sur la VACCINE.
+- **Pages**: 417-418
+- **Summary**: Professor Odier reports that the cowpox virus obtained from a person previously infected with smallpox only partially protected against smallpox, producing a weaker, altered vaccine strain; his observations support Dr. Pearson’s view that vaccine virus from such sources may lose its full protective power and should not be used for inoculation.
 
 ---
 
