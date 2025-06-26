@@ -497,6 +497,31 @@ This index contains summaries and references to excerpts from the *Bibliothèque
 - **Pages**: 337-346
 - **Summary**: Dr. J. de Carro reports the first successful cases of vaccination in Vienna in 1799 using material sent from England, confirming the effectiveness, safety, and ease of adopting Jenner’s method even in regions without naturally infected cows.
 
+
+---
+
+## Science and Arts: Volume 12 (??)
+
+### Sciences_Et_Arts-12\articles\Medecine\bb-Sciences_Et_Arts-12-Rapport_Sur_La_Vaccine1-pg146-162_fr.tex
+- **Title**: RAPPORT SUR LA VACCINE, & fur l'inoculation de cette maladie, confidérée comme pouvant être fubftituée à la petite-vérole, par W. WOODVILLE, Médecin de l'hôpital des inoculés, à Londres. — Londres 16 mai 1799.
+- **Pages**: 146-162
+- **Summary**: Dr. Woodville's 1799 report discusses over 500 cases of cowpox inoculation as a potential replacement for smallpox vaccination. Though early results were promising—suggesting immunity and fewer risks—concerns remain about the timing of follow-up tests. The report critiques slow adoption of inoculation and emphasizes cowpox’s potential to prevent smallpox epidemics.
+
+### Sciences_Et_Arts-12\articles\Medecine\bb-Sciences_Et_Arts-12-Rapport_Sur_La_Vaccine2-pg271-305_fr.tex
+- **Title**: RAPPORT sur la VACCINE & sur l'inoculation de cette maladie, considérée comme pouvant être substituée à la petite-vérole; par W. WOODVILLE, Médecin de l'Hôpital des inoculés à Londres. (Second Extrait.)
+- **Pages**: 271-305
+- **Summary**: This report compares cowpox (vaccine) and smallpox inoculation, focusing on safety and effectiveness. Based on Dr. Woodville’s data, cowpox causes fewer symptoms, especially in young children, offering strong protection with mild illness. Fever and rash are typically less severe than with smallpox, making vaccination a safer alternative for early prevention.
+
+### Sciences_Et_Arts-12\articles\Correspondance\bb-Sciences_Et_Arts-12-Lettre_Sur_La_Vaccine1-pg163-175_fr.tex
+- **Title**: Aux Auteurs De La Biblothéque Britannique
+- **Pages**: 163-175
+- **Summary**: Dr. de Carro’s letters from Vienna detail his vaccine inoculation efforts, comparisons between results in Berkeley and London, and concerns about contamination in hospital settings. He shares experimental outcomes, warns against diluting dried matter, promotes using infected threads, and emphasizes careful tracing of vaccine origins to support Jenner’s discovery.
+
+### Sciences_Et_Arts-12\articles\Correspondance\bb-Sciences_Et_Arts-12-Lettre_Sur_La_Vaccine2-pg306-312_fr.tex
+- **Title**: AUX AUTEURS DE LA BIBLIOTHÈQUE BRITANNIQUE.
+- **Pages**: 306-312
+- **Summary**: Dr. de Carro reports on failed early vaccinations, stresses avoiding dilution, and shares a compelling case of successful inoculation in a man who previously had smallpox—supporting Jenner’s claims. He describes symptoms, materials used, and encourages continued experimentation. Fresh vaccine matter is enclosed for further trials.
+
 ---
 
 > 🗂️ You can ask questions about any of these documents using their titles or page ranges. For example:  
