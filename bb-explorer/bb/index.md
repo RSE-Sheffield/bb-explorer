@@ -571,6 +571,28 @@ This index contains summaries and references to excerpts from the *Bibliothèque
 
 ---
 
+## Science and Arts: Volume 15 (??)
+
+### Sciences_Et_Arts-15\articles\Médecine\bb-Sciences_Et_Arts-15-Innoculation_De_La_Vaccine-pg071-089_fr.tex
+- **Title**: MÉMOIRE sur l'Inoculation de la VACCINE à GENÈVE.
+- **Pages**: 71-89
+- **Summary**: In Geneva, physicians adopted Jenner’s cowpox-based vaccine, proving it effectively prevents smallpox with minimal side effects. After initial failures due to poor virus samples, successful inoculations showed mild, uniform symptoms. Nearly 400 children were vaccinated, confirming the method’s safety, efficacy, and superiority over traditional smallpox inoculation methods.
+
+### Sciences_Et_Arts-15\articles\Médecine\bb-Sciences_Et_Arts-15-Nouv._Observations_Sur_La_Vaccine-pg261-290_fr.tex
+- **Title**: FURTHER OBSERVATIONS ON THE VARIOLE VACCINAE. Nouvelles observations sur la Vaccine, par EDOUARD JENNER Dr. M. de la Soc. Roy. etc. Londres 1799. 4to. pp. 64.
+- **Pages**: 261-290
+- **Summary**: The article discusses the growing evidence across Europe confirming the efficacy of Edward Jenner’s cowpox-based smallpox vaccine. It emphasizes the vaccine's mildness and lasting protection, advocating for its widespread use to eliminate smallpox. Jenner defends his theories and warns against using degraded or mistaken viral sources that risk producing ineffective “bastard” vaccines.
+
+### Sciences_Et_Arts-15\articles\Médecine\bb-Sciences_Et_Arts-15-Vaccine-pg352-389_fr.tex
+- **Title**:
+    - OBSERVATIONS ON THE COW-POX, etc. Observations sur la vaccine, par le Dr. W. WOODVILLE, Médecin des Hôpitaux de petite-vérole et d’inoculation, à Londres. 1800. in-8°. pp. 43.
+    - SOME OBSERVATIONS ON VACCINATION, &c. Observation sur la Vaccination, où inoculation de la Vacciné; par RICHARD DUNNING, Chirurgien et Membre de la Société Médicale de Plymouth. Londres 1808. in - 8o. pp. 122.
+    - FAMILIAR OBSERVATIONS, etc. Observations familières sur l'inoculation de la vaccine, par ALEXANDRE HERMAN MAC-DONALD. D. M. Hambourg. 6 octobre 1800. 4to. pp. 48.
+- **Pages**: 352-389
+- **Summary**: 3 sub articles covering; Woodville’s vaccine trials revealed eruptions, sparking debate with Jenner; vaccination in Plymouth proved safe and effective, even improving weak children's health, unlike often dangerous smallpox inoculation with serious side effects; and the dangers of traditional smallpox inoculation, highlights the safety of vaccination, and urges its widespread adoption. 
+
+---
+
 > 🗂️ You can ask questions about any of these documents using their titles or page ranges. For example:  
 > “Summarize the content from *Literature Vol 56, pages 512–540*” or  
 > “What British authors are discussed in *Literature Vol 57, pages 265–279*?”
