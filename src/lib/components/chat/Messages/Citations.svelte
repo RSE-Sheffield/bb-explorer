@@ -97,7 +97,7 @@
                 } else {
                     console.log("Chunk does not contain page num")
                 }
-                if (_source.name != "index.md") {
+                if (_source.name != "index.md" && metadata?.subject) {
                     // Append page number to end of URL to take user directly to the page
                     const gbooks_dict = {
                       lit_52: "https://books.google.co.uk/books?id=c4dCAAAAcAAJ&hl=en&pg=PA",
