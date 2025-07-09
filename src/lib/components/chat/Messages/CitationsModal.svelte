@@ -56,11 +56,19 @@
 </script>
 
 <Modal size="lg" bind:show>
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'fr'}, 'google_translate_element');
+    }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	<div>
 		<div class=" flex justify-between dark:text-gray-300 px-5 pt-4 pb-2">
 			<div class=" text-lg font-medium self-center capitalize">
 				{$i18n.t('Citation')}
 			</div>
+            <div id="google_translate_element"></div>
 			<button
 				class="self-center"
 				on:click={() => {
@@ -101,7 +109,7 @@
 									<a
 										class="hover:text-gray-500 dark:hover:text-gray-100 underline grow"
 										href={document?.metadata?.file_id
-											? `${WEBUI_API_BASE_URL}/files/${document?.metadata?.file_id}/content${document?.metadata?.page !== undefined ? `#page=${document.metadata.page + 1}` : ''}`
+											? `${WEBUI_API_BASE_URL}/files/${document?.metadata?.file_id}/content${document?.metadata?.page !== undefined ? `#page=${document.metadata.page}` : ''}`
 											: document.source?.url?.includes('http')
 												? document.source.url
 												: `#`}
@@ -109,11 +117,21 @@
 									>
 										{decodeString(document?.metadata?.name ?? document.source.name)}
 									</a>
-									{#if document?.metadata?.page}
-										<span class="text-xs text-gray-500 dark:text-gray-400">
-											({$i18n.t('page')}
-											{document.metadata.page + 1})
-										</span>
+									{#if document?.metadata?.google_books }
+                                        <a
+                                            class="hover:text-gray-500 dark:hover:text-gray-100 underline grow"
+                                            href={document?.metadata?.google_books}
+                                            target="_blank"
+                                        >
+                                            <span class="text-xs text-gray-500 dark:text-gray-400">
+                                                {#if document?.metadata?.page}
+                                                    (View {$i18n.t('page')}
+                                                    {document.metadata.page})
+                                                {:else}
+                                                (View Section)
+                                                {/if}
+                                            </span>
+                                        </a>
 									{/if}
 								</div>
 							</Tooltip>
@@ -177,7 +195,7 @@
 					</div>
 					<div class="flex flex-col w-full">
 						<div class=" text-sm font-medium dark:text-gray-300 mt-2">
-							{$i18n.t('Content')}
+							{$i18n.t('Source Text')}
 						</div>
 						{#if document.metadata?.html}
 							<iframe

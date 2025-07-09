@@ -49,37 +49,103 @@
 				return acc;
 			}
 
-			source.document.forEach((document, index) => {
-				const metadata = source.metadata?.[index];
-				const distance = source.distances?.[index];
+			source.document.forEach((document, index) => {                
+            try {
+                    const metadata = source.metadata?.[index];
+                    const distance = source.distances?.[index];
 
-				// Within the same citation there could be multiple documents
-				const id = metadata?.source ?? source?.source?.id ?? 'N/A';
-				let _source = source?.source;
+                    // Within the same citation there could be multiple documents
+                    const id = metadata?.source ?? source?.source?.id ?? 'N/A';
+                    let _source = source?.source;
 
-				if (metadata?.name) {
-					_source = { ..._source, name: metadata.name };
-				}
+                    if (metadata?.name) {
+                        _source = { ..._source, name: metadata.name };
+                    }
 
-				if (id.startsWith('http://') || id.startsWith('https://')) {
-					_source = { ..._source, name: id, url: id };
-				}
+                    if (id.startsWith('http://') || id.startsWith('https://')) {
+                        _source = { ..._source, name: id, url: id };
+                    }
 
-				const existingSource = acc.find((item) => item.id === id);
-
-				if (existingSource) {
-					existingSource.document.push(document);
-					existingSource.metadata.push(metadata);
-					if (distance !== undefined) existingSource.distances.push(distance);
-				} else {
-					acc.push({
-						id: id,
-						source: _source,
-						document: [document],
-						metadata: metadata ? [metadata] : [],
-						distances: distance !== undefined ? [distance] : undefined
-					});
-				}
+                    const existingSource = acc.find((item) => item.id === id);
+                    //console.log(_source);
+                    // Attempt to detect the subject, volume and chapter
+                    // "Bibliotheque Britannique: <subject> Vol. <vol>, Chap. <chapter>, Sec. <section> (pp<start>-<end>)"
+                    if (_source.name != "index.md") {
+                        const match = _source.name.match(/bb-([^-]+)-([0-9]{1,2})-([^-]+)-([^-]+)-pg([0-9]{1,3})-([0-9]{1,3})/);
+                        if (match) {
+                            metadata.subject = match[1].replace(/_/g, " ");
+                            metadata.volume = parseInt(match[2])
+                            metadata.chapter = match[3].replace(/_/g, " ");
+                            metadata.section = match[4].replace(/_/g, " ");
+                            metadata.page_start = parseInt(match[5])
+                            metadata.page_end = parseInt(match[6])
+                            // This acts as the name of the source shown in metadata modal, otherwise it default to filename
+                            metadata.name = `Bibliotheque Britannique: ${metadata.subject} Vol. ${metadata.volume}, Chap. ${metadata.chapter}, Sec. ${metadata.section} (pp${metadata.page_start}-${metadata.page_end})`;
+                            // Contracted version of the name, to be shown inline with the response
+                            // Contracted because if it exceeds ~60 chars the remaining chars are replaced with ellipsis within the UI
+                            _source.name = `${metadata.subject} Vol. ${metadata.volume}, Sec. ${metadata.section}`;
+                        } else {
+                            //metadata.name = "Match failed: "+_source.name
+                            console.log(`Source '${_source.name}' does not match`)
+                        }
+                    } else {
+                        metadata.name = `Contents`;
+                    }
+                    // Attempt to extract a page number from the body text
+                    const match = document.match(/\\setcounter\{page\}\{([0-9]+)\}/);
+                    if (match) {
+                        metadata.page = parseInt(match[1]); // Setting page here, displays it next to source in modal
+                    } else {
+                        console.log("Chunk does not contain page num")
+                    }
+                    if (_source.name != "index.md" && metadata?.subject) {
+                        // Append page number to end of URL to take user directly to the page
+                        const gbooks_dict = {
+                          lit_52: "https://books.google.co.uk/books?id=c4dCAAAAcAAJ&hl=en&pg=PA",
+                          lit_53: "https://books.google.co.uk/books?id=hYdCAAAAcAAJ&hl=en&pg=PA",
+                          lit_54: "https://books.google.co.uk/books?id=KsoyNbhgatkC&hl=en&pg=PA",
+                          lit_55: "https://books.google.co.uk/books?id=RhIbAAAAYAAJ&hl=en&pg=PA",
+                          lit_56: "https://books.google.co.uk/books?id=_Hw1AQAAMAAJ&hl=en&pg=PA",
+                          lit_57: "https://books.google.co.uk/books?id=GX01AQAAMAAJ&hl=en&pg=PA",
+                          lit_58: "https://books.google.co.uk/books?id=N301AQAAMAAJ&hl=en&pg=PA",
+                          lit_59: "https://books.google.co.uk/books?id=RxMPAAAAQAAJ&hl=en&pg=PA",
+                          agr_18: "https://books.google.co.uk/books?id=LIlCAAAAcAAJ&hl=en&pg=PA",
+                          agr_19: "https://books.google.co.uk/books?id=7-ZEk0HFFEAC&hl=en&pg=PA",
+                          sci_9: "https://books.google.co.uk/books?id=JR4FAAAAQAAJ&hl=en&pg=PA",
+                          sci_10: "https://books.google.co.uk/books?id=wjIh9ke8qHIC&hl=en&pg=PA",
+                          sci_11: "https://books.google.co.uk/books?id=ZjDjGvkJWGcC&hl=en&pg=PA",
+                          sci_12: "https://books.google.co.uk/books?id=ce2PU32urIkC&hl=en&pg=PA",
+                          sci_13: "https://books.google.co.uk/books?id=Xd9L4Ej52RcC&hl=en&pg=PA",
+                          sci_14: "https://books.google.co.uk/books?id=UfZxvpg6-Y4C&hl=en&pg=PA",
+                          sci_15: "https://books.google.co.uk/books?id=79KezsEfFvQC&hl=en&pg=PA"
+                        };
+                        // Attach a google books URL to metadata if possible to determine it
+                        const book_code = (metadata.subject.slice(0, 3) + "_" + metadata.volume).toLowerCase();
+                        if (book_code in gbooks_dict) {
+                            if (metadata?.page) {
+                                metadata.google_books = gbooks_dict[book_code] + metadata.page;
+                            } else {
+                                metadata.google_books = gbooks_dict[book_code] + metadata.page_start;
+                            }
+                        }
+                    }
+                    
+                    if (existingSource) {
+                        existingSource.document.push(document);
+                        existingSource.metadata.push(metadata);
+                        if (distance !== undefined) existingSource.distances.push(distance);
+                    } else {
+                        acc.push({
+                            id: id,
+                            source: _source,
+                            document: [document],
+                            metadata: metadata ? [metadata] : [],
+                            distances: distance !== undefined ? [distance] : undefined
+                        });
+                    }
+                } catch (e) {
+                    console.log(e);
+                }
 			});
 			return acc;
 		}, []);
